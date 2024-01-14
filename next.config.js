@@ -15,6 +15,7 @@ if (isGithubActions) {
 module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
+  output: 'export',
   images: {
     loader: 'imgix',
     path: 'the "domain" of your Imigix source',
