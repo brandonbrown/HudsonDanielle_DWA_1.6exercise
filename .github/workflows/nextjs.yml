@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
         # /brandonbrown/HudsonDanielle_DWA_1.6exercise
-        uses: brandonbrown/HudsonDanielle_DWA_1.6exercise@latest
+        uses: brandonbrown/HudsonDanielle_DWA_1.6exercise@main
         with:
           branch: gh-pages
           folder: out
